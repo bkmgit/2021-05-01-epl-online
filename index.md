@@ -426,8 +426,13 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
+{% comment %}
 {% if site.carpentry == "swc" %}
+{% endcomment %}
+
 {% include swc/setup.html %}
+{% comment %}
+Use software carpentry setup since it is better suited for choice of topics
 {% elsif site.carpentry == "dc" %}
 {% include dc/setup.html %}
 {% elsif site.carpentry == "lc" %}
@@ -437,3 +442,4 @@ Please check the "Setup" page of
 [the lesson site]({{ site.lesson_site }}) for instructions to follow
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
+{% endcomment %}
