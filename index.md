@@ -82,7 +82,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endif %}
 
 
-<h2 id="general">General Information</h2>
+<h1 id="general">General Information</h1>
 
 {% comment %}
 INTRODUCTION
@@ -269,7 +269,7 @@ Edit the text to match who can attend the workshop. For instance:
 {% comment%}
 CODE OF CONDUCT
 {% endcomment %}
-<h2 id="code-of-conduct">Code of Conduct</h2>
+<h1 id="code-of-conduct">Code of Conduct</h1>
 
 <p>
 Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
@@ -297,7 +297,7 @@ Note we also have a CodiMD (the open-source version of HackMD)
 available at https://codimd.carpentries.org
 {% endcomment %}
 {% if page.collaborative_notes %}
-<h2 id="collaborative_notes">Collaborative Notes</h2>
+<h1 id="collaborative_notes">Collaborative Notes</h1>
 
 <p>
 We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
@@ -309,7 +309,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
-<h2 id="surveys">Surveys</h2>
+<h1 id="surveys">Surveys</h1>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 {% if site.carpentry == "pilot" %}
 <p><a href="{{ site.pilot_pre_survey }}">Pre-workshop Survey</a></p>
@@ -386,7 +386,7 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 
-<h2 id="setup">Setup</h2>
+<h1 id="setup">Setup</h1>
 
 <p>
   To participate in a
@@ -425,7 +425,7 @@ to include the relevant installation instrucctions.
 These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
-
+<h2>Spreadsheets, OpenRefine and R</h2>
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
