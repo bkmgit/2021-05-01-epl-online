@@ -435,5 +435,10 @@ during the workshop.
 {% elsif site.carpentry == "pilot" %}
 Please check the "Setup" page of
 [the lesson site]({{ site.lesson_site }}) for instructions to follow
-to obtain the software and data you will need to follow the lesson.
+to obtain the software and data you will need to follow the Spreadsheet, 
+Openrefind and R lessons.
 {% endif %}
+{% include install_instructions/shell.html %}
+{% include install_instructions/git.html %}
+{% include install_instructions/editor.html %}
+
