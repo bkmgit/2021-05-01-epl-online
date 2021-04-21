@@ -425,7 +425,7 @@ to include the relevant installation instrucctions.
 These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
-<h2>Spreadsheets, OpenRefine and R</h2>
+<h3>Spreadsheets, OpenRefine and R</h3>
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
